@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eaf4c0a-688a-4865-866c-999aabed8873" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/kalman.m" afterPath="$PROJECT_DIR$/newtheory/kalman.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/kalmaninit.m" afterPath="$PROJECT_DIR$/newtheory/kalmaninit.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/newtheoryi.m" afterPath="$PROJECT_DIR$/newtheory/newtheoryi.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/newtheoryv.m" afterPath="$PROJECT_DIR$/newtheory/newtheoryv.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/optionlab$importorv.coverage" NAME="importorv Coverage Results" MODIFIED="1501159329895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/optionlab$kalman2.coverage" NAME="kalman2 Coverage Results" MODIFIED="1501163720654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optionlab$Nosetests_in_test_py.coverage" NAME="Nosetests in test.py Coverage Results" MODIFIED="1500964049486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optionlab$mytest.coverage" NAME="mytest Coverage Results" MODIFIED="1500964144878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optionlab$caliv.coverage" NAME="caliv Coverage Results" MODIFIED="1501006166466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -59,17 +58,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kalman.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kalman.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kalman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="46" column="60" lean-forward="false" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1501156612895" expanded="true" signature="1122:1167" ph="select disti... t3" />
-                <marker date="1501156612895" expanded="true" signature="1315:1650" ph="SELECT datad... t3" />
-                <marker date="1501156612895" expanded="true" signature="1315:1690" ph="SELECT datad... t3" />
-                <marker date="1501156612895" expanded="true" signature="2094:2139" ph="update t3 a " />
+                <marker date="1501163485887" expanded="true" signature="1122:1167" ph="select disti... t3" />
+                <marker date="1501163485887" expanded="true" signature="1315:1688" ph="SELECT datad... t3" />
+                <marker date="1501163485887" expanded="true" signature="1315:1728" ph="SELECT datad... t3" />
+                <marker date="1501163485887" expanded="true" signature="2144:2189" ph="update t3 a " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kalman2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kalman2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding>
+                <marker date="1501163561299" expanded="true" signature="1123:1168" ph="select disti... t3" />
+                <marker date="1501163561299" expanded="true" signature="1316:1729" ph="SELECT datad... t3" />
               </folding>
             </state>
           </provider>
@@ -90,16 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
               <caret line="81" column="54" lean-forward="false" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda2/Lib/threading.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,9 +170,10 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/caliv.py" />
         <option value="$PROJECT_DIR$/newtheory/orv.m" />
-        <option value="$PROJECT_DIR$/kalman.py" />
         <option value="$PROJECT_DIR$/newtheory/newtheoryi.m" />
         <option value="$PROJECT_DIR$/importorv.py" />
+        <option value="$PROJECT_DIR$/kalman.py" />
+        <option value="$PROJECT_DIR$/kalman2.py" />
       </list>
     </option>
   </component>
@@ -280,6 +283,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\optionlab" />
+      <recent name="D:\github\optionlab\newtheory" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -292,24 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.importorv">
-    <configuration default="false" name="Nosetests in test.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="optionlab" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.kalman2">
     <configuration default="false" name="mytest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -381,6 +373,25 @@
       <module name="optionlab" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kalman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="kalman2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="optionlab" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kalman2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -536,19 +547,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mytest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.caliv" />
-      <item index="3" class="java.lang.String" itemvalue="Python.importorv" />
-      <item index="4" class="java.lang.String" itemvalue="Python.kalman" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mytest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.caliv" />
+      <item index="2" class="java.lang.String" itemvalue="Python.importorv" />
+      <item index="3" class="java.lang.String" itemvalue="Python.kalman" />
+      <item index="4" class="java.lang.String" itemvalue="Python.kalman2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.importorv" />
-        <item index="1" class="java.lang.String" itemvalue="Python.kalman" />
-        <item index="2" class="java.lang.String" itemvalue="Python.caliv" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mytest" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.kalman2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.importorv" />
+        <item index="2" class="java.lang.String" itemvalue="Python.kalman" />
+        <item index="3" class="java.lang.String" itemvalue="Python.caliv" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mytest" />
       </list>
     </recent_temporary>
   </component>
@@ -593,13 +604,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979593" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257143" sideWeight="0.50160515" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33061224" sideWeight="0.49839488" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33061224" sideWeight="0.49839488" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25321028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -774,14 +784,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kalman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="46" column="60" lean-forward="false" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1501156612895" expanded="true" signature="1122:1167" ph="select disti... t3" />
-            <marker date="1501156612895" expanded="true" signature="1315:1650" ph="SELECT datad... t3" />
-            <marker date="1501156612895" expanded="true" signature="1315:1690" ph="SELECT datad... t3" />
-            <marker date="1501156612895" expanded="true" signature="2094:2139" ph="update t3 a " />
+            <marker date="1501163485887" expanded="true" signature="1122:1167" ph="select disti... t3" />
+            <marker date="1501163485887" expanded="true" signature="1315:1688" ph="SELECT datad... t3" />
+            <marker date="1501163485887" expanded="true" signature="1315:1728" ph="SELECT datad... t3" />
+            <marker date="1501163485887" expanded="true" signature="2144:2189" ph="update t3 a " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kalman2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <marker date="1501163561299" expanded="true" signature="1123:1168" ph="select disti... t3" />
+            <marker date="1501163561299" expanded="true" signature="1316:1729" ph="SELECT datad... t3" />
           </folding>
         </state>
       </provider>
