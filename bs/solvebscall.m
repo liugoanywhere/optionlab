@@ -1,4 +1,5 @@
 function [sigma,fval,exitflag,output] = solvebscall( s,k,y,t,r  )
+
 %SOLVEBSCALL Summary of this function goes here
 %   Detailed explanation goes here
 opts = optimoptions(@fmincon,'Algorithm','interior-point','Display','off');

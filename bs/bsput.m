@@ -1,11 +1,8 @@
 function [ y,delta,gamma,vega ]  = bsput( s,k,sigma,t,r )
 %BSPUT Summary of this function goes here
 %   Detailed explanation goes here
-if sigma<0
-   y=NaN;
-   return;
-end
-if t==0
+
+if t<=0
     y=max(0,k-s);
     return;
 end

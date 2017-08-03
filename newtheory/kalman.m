@@ -1,7 +1,7 @@
-function [ CorrectedState,CorrectedStateCovariance ] = kalman( obj,x )
+function [ CorrectedState,CorrectedStateCovariance ] = kalman( obj,x,k,t )
 %KALMAN Summary of this function goes here
 %   Detailed explanation goes here
-[CorrectedState,CorrectedStateCovariance] = correct(obj,real(log(x)))
+[CorrectedState,CorrectedStateCovariance] = correct(obj,x,k,t);
 
 end
 
