@@ -1,7 +1,7 @@
 function [ logiv ] = kalmanmeasurement4( x,k,t,mask,numk,numt,ifv,ndays )
 for i3=1:ndays
 for i=1:numk
-for i2=1:(ifv+1)*numt
+    for i2=1:(ifv+1)*numt
        % k=0.8+0.02*(i-1);
         
         if i2<=3
@@ -10,8 +10,8 @@ for i2=1:(ifv+1)*numt
            % t=(i2-3)/12;
         end
 y=[-3; 0 ;0 ;0 ;0;0;-3;0;0;0];        
-for i4=1:length(mask)
-y(mask(i4))=x(i4);
+for i3=1:length(mask)
+y(mask(i3))=x(i3);
 end
 
 v=exp(y(1));
@@ -24,12 +24,10 @@ vp=exp(y(7));
 mp=y(8);
 rhop=(exp(y(9))-1)/(exp(y(9))+1);
 jp=y(10);
-
-index=(ifv+1)*numt*numk*(i3-1)+i2+(i-1)*(ifv+1)*numt;
 if i2<=numt
-logiv(index)=log(newtheoryi2( eta, t(index), m, w, rho, v, k(index) ,j));
+logiv(i2+(i-1)*(ifv+1)*numt)=log(newtheoryi2( eta, t(i2+(i-1)*6), m, w, rho, v, k(i2+(i-1)*6) ,j));
 else
-    logiv(index)=log( newtheoryv2( eta, t(index), w,  mp, rhop, vp, k(index),jp ));
+    logiv(i2+(i-1)*6)=log( newtheoryv2( eta, t(i2+(i-1)*6), w,  mp, rhop, vp, k(i2+(i-1)*6),jp ));
 end
 end
 end

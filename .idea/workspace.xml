@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eaf4c0a-688a-4865-866c-999aabed8873" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalman.asv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmaninit.asv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmaninit2.asv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/newtheoryi.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/newtheoryv.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/getmle3.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmaninit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmaninit2.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmaninit3.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmanmeasurement.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmanmeasurement2.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmanmeasurement3.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmanmeasurement7.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/kalmanmeasurement8.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/mle3.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newtheory/mle4.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bs/bsput.m" afterPath="$PROJECT_DIR$/bs/bsput.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bs/solvebscall.m" afterPath="$PROJECT_DIR$/bs/solvebscall.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bs/solveiv.m" afterPath="$PROJECT_DIR$/bs/solveiv.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/getmle4.m" afterPath="$PROJECT_DIR$/newtheory/getmle4.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/kalman.m" afterPath="$PROJECT_DIR$/newtheory/kalman.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/kalmaninit.m" afterPath="$PROJECT_DIR$/newtheory/kalmaninit.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/kalmaninit2.m" afterPath="$PROJECT_DIR$/newtheory/kalmaninit2.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/orv.m" afterPath="$PROJECT_DIR$/newtheory/orv.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/kalmaninit4.m" afterPath="$PROJECT_DIR$/newtheory/kalmaninit4.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtheory/kalmanmeasurement4.m" afterPath="$PROJECT_DIR$/newtheory/kalmanmeasurement4.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,17 +33,80 @@
     <SUITE FILE_PATH="coverage/optionlab$Nosetests_in_test_py.coverage" NAME="Nosetests in test.py Coverage Results" MODIFIED="1500964049486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optionlab$importorv.coverage" NAME="importorv Coverage Results" MODIFIED="1501747472783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optionlab$caliv2.coverage" NAME="caliv2 Coverage Results" MODIFIED="1501661386320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/optionlab$kalman4.coverage" NAME="kalman4 Coverage Results" MODIFIED="1501731734191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/optionlab$kalman4.coverage" NAME="kalman4 Coverage Results" MODIFIED="1502691519874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optionlab$kalman2.coverage" NAME="kalman2 Coverage Results" MODIFIED="1501552700730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optionlab$kalman.coverage" NAME="kalman Coverage Results" MODIFIED="1501555484687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/optionlab$mle4.coverage" NAME="mle4 Coverage Results" MODIFIED="1501753323975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="kalman4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kalman4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4224">
+              <caret line="192" column="21" lean-forward="false" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1502691519619" expanded="true" signature="1378:1386" ph="select disti... t3" />
+                <marker date="1502691519619" expanded="true" signature="1378:1399" ph="select datad... t1" />
+                <marker date="1502691519619" expanded="true" signature="1378:1470" ph="select datad... t1" />
+                <marker date="1502691519619" expanded="true" signature="1378:1475" ph="select datad... t1" />
+                <marker date="1502691519619" expanded="true" signature="1378:1496" ph="select datad... t1" />
+                <marker date="1502691519619" expanded="true" signature="1587:2262" ph="SELECT datad... t3" />
+                <marker date="1502691519619" expanded="true" signature="1975:2107" ph="select b2.da... python" />
+                <marker date="1502691519619" expanded="true" signature="2024:2105" ph="select b3.id... python" />
+                <marker date="1502691519619" expanded="true" signature="4251:4358" ph="insert into t4... " />
+                <marker date="1502691519619" expanded="true" signature="4828:5000" ph="update t3 se... " />
+                <marker date="1502691519619" expanded="true" signature="5662:5772" ph="update t3 se... " />
+                <marker date="1502691519619" expanded="true" signature="6999:7013" ph="delete FROM " />
+                <marker date="1502691519619" expanded="true" signature="7046:7195" ph="update t3 se... " />
+                <marker date="1502691519619" expanded="true" signature="7219:7247" ph="drop table i... " />
+                <marker date="1502691519619" expanded="true" signature="7280:7393" ph="CREATE TABLE... python" />
+                <marker date="1502691519619" expanded="true" signature="7426:7543" ph="insert into python... " />
+                <marker date="1502691519619" expanded="true" signature="7513:7525" ph="select disti... temptable" />
+                <marker date="1502691519619" expanded="true" signature="7513:7543" ph="insert into python... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="caliv2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/caliv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding>
+                <marker date="1501661266215" expanded="true" signature="850:1020" ph="select `id`,... temptable" />
+                <marker date="1501661266215" expanded="true" signature="1735:1810" ph="update tempt... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kalmanmeasurement4.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newtheory/kalmanmeasurement4.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/ProgramData/Anaconda2/Lib/threading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2408">
+              <caret line="773" column="0" lean-forward="false" selection-start-line="773" selection-start-column="0" selection-end-line="773" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="caliv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caliv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-269">
+            <state relative-caret-position="726">
               <caret line="41" column="101" lean-forward="false" selection-start-line="41" selection-start-column="101" selection-end-line="41" selection-end-column="101" />
               <folding>
                 <marker date="1501526428685" expanded="true" signature="850:1138" ph="select `id`,... temptable" />
@@ -53,70 +119,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mle4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mle4.py">
+      <file leaf-file-name="kalman.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newtheory/kalman.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="137" column="4" lean-forward="true" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1501753301575" expanded="true" signature="1124:1186" ph="select datad... t1" />
-                <marker date="1501753301575" expanded="true" signature="1124:1198" ph="select datad... t1" />
-                <marker date="1501753301575" expanded="true" signature="1124:1199" ph="select datad... t1" />
-                <marker date="1501753301575" expanded="true" signature="1124:1225" ph="select datad... t1" />
-                <marker date="1501753301575" expanded="true" signature="1124:1236" ph="select datad... t1" />
-                <marker date="1501753301575" expanded="true" signature="1347:1728" ph="SELECT datad... t3" />
-                <marker date="1501753301575" expanded="true" signature="1347:1775" ph="SELECT datad... t3" />
-                <marker date="1501753301575" expanded="true" signature="1347:1777" ph="SELECT datad... t3" />
-                <marker date="1501753301575" expanded="true" signature="3078:3244" ph="insert into t4c... " />
-                <marker date="1501753301575" expanded="true" signature="3480:3593" ph="insert into t4f... " />
-                <marker date="1501753301575" expanded="true" signature="4055:4216" ph="update t3 se... " />
-                <marker date="1501753301575" expanded="true" signature="4498:4603" ph="update t3 se... " />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kalman4.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kalman4.py">
+      <file leaf-file-name="kalmaninit4.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit4.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1501753482000" expanded="true" signature="1318:1363" ph="select disti... t3" />
-                <marker date="1501753482000" expanded="true" signature="1318:1392" ph="select disti... t3" />
-                <marker date="1501753482000" expanded="true" signature="1480:1867" ph="SELECT datad... t3" />
-                <marker date="1501753482000" expanded="true" signature="3221:3417" ph="insert into t4c... " />
-                <marker date="1501753482000" expanded="true" signature="3658:3790" ph="insert into t4b... " />
-                <marker date="1501753482000" expanded="true" signature="3977:4144" ph="insert into t4a... " />
-                <marker date="1501753482000" expanded="true" signature="4376:4492" ph="insert into t4... " />
-                <marker date="1501753482000" expanded="true" signature="5126:5304" ph="update t3 se... " />
-                <marker date="1501753482000" expanded="true" signature="5534:5647" ph="update t3 se... " />
-                <marker date="1501753482000" expanded="true" signature="5824:6002" ph="update t3 se... " />
-                <marker date="1501753482000" expanded="true" signature="6254:6367" ph="update t3 se... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train_nlm.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/programming2/nlp/nlm-master/code/train_nlm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="981">
-              <caret line="95" column="13" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="95" selection-end-column="13" />
-              <folding>
-                <element signature="e#70#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mle4.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newtheory/mle4.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="198">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -127,48 +144,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="importorv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/importorv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2376">
-              <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1501747472443" expanded="true" signature="1086:1219" ph="SELECT id,da... t3" />
-                <marker date="1501747472443" expanded="true" signature="1540:1691" ph="SELECT datad... t1" />
-                <marker date="1501747472443" expanded="true" signature="2258:2320" ph="update t3 a " />
-                <marker date="1501747472443" expanded="true" signature="2431:2582" ph="SELECT datad... t1" />
-                <marker date="1501747472443" expanded="true" signature="3161:3223" ph="update t3 a " />
-                <marker date="1501747472443" expanded="true" signature="3347:3500" ph="SELECT datad... t1" />
-                <marker date="1501747472443" expanded="true" signature="4083:4149" ph="update t3 a " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="caliv2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caliv2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-              <folding>
-                <marker date="1501661266215" expanded="true" signature="850:1020" ph="select `id`,... temptable" />
-                <marker date="1501661266215" expanded="true" signature="1735:1810" ph="update tempt... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda2/Lib/threading.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16566">
-              <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,7 +163,12 @@
       <find>line</find>
       <find>datadate[0]</find>
       <find>usage</find>
+      <find>resultspxnew</find>
+      <find>weekofday</find>
     </findStrings>
+    <replaceStrings>
+      <replace>dayofweek</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -210,6 +190,11 @@
         <option value="$PROJECT_DIR$/caliv2.py" />
         <option value="$PROJECT_DIR$/importorv.py" />
         <option value="$PROJECT_DIR$/mle4.py" />
+        <option value="$PROJECT_DIR$/newtheory/kalmaninit.m" />
+        <option value="$PROJECT_DIR$/newtheory/kalmaninit3.m" />
+        <option value="$PROJECT_DIR$/newtheory/kalmaninit2.m" />
+        <option value="$PROJECT_DIR$/newtheory/kalmaninit4.m" />
+        <option value="$PROJECT_DIR$/newtheory/kalman.m" />
         <option value="$PROJECT_DIR$/kalman4.py" />
       </list>
     </option>
@@ -222,8 +207,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
+    <option name="y" value="1" />
     <option name="width" value="2572" />
-    <option name="height" value="1398" />
+    <option name="height" value="1397" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,6 +248,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -270,8 +256,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kalman4.py" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/kalman4.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mle4.py" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/mle4.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -291,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mle4">
+  <component name="RunManager" selected="Python.kalman4">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -508,7 +494,7 @@
       <module name="optionlab" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kalman4.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="4" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -526,7 +512,7 @@
       <module name="optionlab" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mle4.py" />
-      <option name="PARAMETERS" value="4" />
+      <option name="PARAMETERS" value="3" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -539,9 +525,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mle4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.importorv" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kalman4" />
+        <item index="0" class="java.lang.String" itemvalue="Python.kalman4" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mle4" />
+        <item index="2" class="java.lang.String" itemvalue="Python.importorv" />
         <item index="3" class="java.lang.String" itemvalue="Python.caliv2" />
         <item index="4" class="java.lang.String" itemvalue="Python.kalman3" />
       </list>
@@ -587,28 +573,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="2572" height="1398" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="1" width="2572" height="1397" extended-state="0" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27393404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923833" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257143" sideWeight="0.50160515" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35012385" sideWeight="0.49839488" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26669347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19669421" sideWeight="0.503218" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19669421" sideWeight="0.49678198" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3996697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -620,46 +605,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kalman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caliv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <marker date="1501526428685" expanded="true" signature="850:1138" ph="select `id`,... temptable" />
-            <marker date="1501526428685" expanded="true" signature="850:1141" ph="select `id`,... temptable" />
-            <marker date="1501526428685" expanded="true" signature="850:1168" ph="select `id`,... temptable" />
-            <marker date="1501526428685" expanded="true" signature="850:1170" ph="select `id`,... temptable" />
-            <marker date="1501526428685" expanded="true" signature="2609:2743" ph="update tempt... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/importorv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="33" column="159" lean-forward="false" selection-start-line="33" selection-start-column="159" selection-end-line="33" selection-end-column="159" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1501747472443" expanded="true" signature="1086:1219" ph="SELECT id,da... t3" />
-            <marker date="1501747472443" expanded="true" signature="1540:1691" ph="SELECT datad... t1" />
-            <marker date="1501747472443" expanded="true" signature="2258:2320" ph="update t3 a " />
-            <marker date="1501747472443" expanded="true" signature="2431:2582" ph="SELECT datad... t1" />
-            <marker date="1501747472443" expanded="true" signature="3161:3223" ph="update t3 a " />
-            <marker date="1501747472443" expanded="true" signature="3347:3500" ph="SELECT datad... t1" />
-            <marker date="1501747472443" expanded="true" signature="4083:4149" ph="update t3 a " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,41 +755,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newtheory/newtheoryi.m" />
     <entry file="file://$PROJECT_DIR$/newtheory/newtheoryv.m" />
-    <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit2.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit4.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit3.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newtheory/kalmanmeasurement4.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newtheory/kalmanmeasurement3.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -913,44 +832,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda2/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16566">
-          <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caliv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <marker date="1501661266215" expanded="true" signature="850:1020" ph="select `id`,... temptable" />
-            <marker date="1501661266215" expanded="true" signature="1735:1810" ph="update tempt... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/importorv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2376">
           <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1501747472443" expanded="true" signature="1086:1219" ph="SELECT id,da... t3" />
-            <marker date="1501747472443" expanded="true" signature="1540:1691" ph="SELECT datad... t1" />
-            <marker date="1501747472443" expanded="true" signature="2258:2320" ph="update t3 a " />
-            <marker date="1501747472443" expanded="true" signature="2431:2582" ph="SELECT datad... t1" />
-            <marker date="1501747472443" expanded="true" signature="3161:3223" ph="update t3 a " />
-            <marker date="1501747472443" expanded="true" signature="3347:3500" ph="SELECT datad... t1" />
-            <marker date="1501747472443" expanded="true" signature="4083:4149" ph="update t3 a " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newtheory/kalmanmeasurement5.m" />
-    <entry file="file://$PROJECT_DIR$/newtheory/getmle4.m">
+    <entry file="file://D:/programming2/nlp/nlm-master/code/train_nlm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1738">
+          <caret line="95" column="13" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="95" selection-end-column="13" />
+          <folding>
+            <element signature="e#70#84#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caliv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="41" column="101" lean-forward="false" selection-start-line="41" selection-start-column="101" selection-end-line="41" selection-end-column="101" />
+          <folding>
+            <marker date="1501526428685" expanded="true" signature="850:1138" ph="select `id`,... temptable" />
+            <marker date="1501526428685" expanded="true" signature="850:1141" ph="select `id`,... temptable" />
+            <marker date="1501526428685" expanded="true" signature="850:1168" ph="select `id`,... temptable" />
+            <marker date="1501526428685" expanded="true" signature="850:1170" ph="select `id`,... temptable" />
+            <marker date="1501526428685" expanded="true" signature="2609:2743" ph="update tempt... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit3.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit2.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newtheory/kalmaninit4.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newtheory/kalmanmeasurement8.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -966,69 +912,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/programming2/nlp/nlm-master/code/train_nlm.py">
+    <entry file="file://$PROJECT_DIR$/newtheory/kalmanmeasurement4.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="95" column="13" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="95" selection-end-column="13" />
-          <folding>
-            <element signature="e#70#84#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caliv.py">
+    <entry file="file://$PROJECT_DIR$/newtheory/getmle4.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-269">
-          <caret line="41" column="101" lean-forward="false" selection-start-line="41" selection-start-column="101" selection-end-line="41" selection-end-column="101" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caliv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
-            <marker date="1501526428685" expanded="true" signature="850:1138" ph="select `id`,... temptable" />
-            <marker date="1501526428685" expanded="true" signature="850:1141" ph="select `id`,... temptable" />
-            <marker date="1501526428685" expanded="true" signature="850:1168" ph="select `id`,... temptable" />
-            <marker date="1501526428685" expanded="true" signature="850:1170" ph="select `id`,... temptable" />
-            <marker date="1501526428685" expanded="true" signature="2609:2743" ph="update tempt... " />
+            <marker date="1501661266215" expanded="true" signature="850:1020" ph="select `id`,... temptable" />
+            <marker date="1501661266215" expanded="true" signature="1735:1810" ph="update tempt... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mle4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="137" column="4" lean-forward="true" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1501753301575" expanded="true" signature="1124:1186" ph="select datad... t1" />
-            <marker date="1501753301575" expanded="true" signature="1124:1198" ph="select datad... t1" />
-            <marker date="1501753301575" expanded="true" signature="1124:1199" ph="select datad... t1" />
-            <marker date="1501753301575" expanded="true" signature="1124:1225" ph="select datad... t1" />
-            <marker date="1501753301575" expanded="true" signature="1124:1236" ph="select datad... t1" />
-            <marker date="1501753301575" expanded="true" signature="1347:1728" ph="SELECT datad... t3" />
-            <marker date="1501753301575" expanded="true" signature="1347:1775" ph="SELECT datad... t3" />
-            <marker date="1501753301575" expanded="true" signature="1347:1777" ph="SELECT datad... t3" />
-            <marker date="1501753301575" expanded="true" signature="3078:3244" ph="insert into t4c... " />
-            <marker date="1501753301575" expanded="true" signature="3480:3593" ph="insert into t4f... " />
-            <marker date="1501753301575" expanded="true" signature="4055:4216" ph="update t3 se... " />
-            <marker date="1501753301575" expanded="true" signature="4498:4603" ph="update t3 se... " />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="38" column="443" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="443" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda2/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2408">
+          <caret line="773" column="0" lean-forward="false" selection-start-line="773" selection-start-column="0" selection-end-line="773" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newtheory/kalman.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kalman4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        <state relative-caret-position="4224">
+          <caret line="192" column="21" lean-forward="false" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1501753482000" expanded="true" signature="1318:1363" ph="select disti... t3" />
-            <marker date="1501753482000" expanded="true" signature="1318:1392" ph="select disti... t3" />
-            <marker date="1501753482000" expanded="true" signature="1480:1867" ph="SELECT datad... t3" />
-            <marker date="1501753482000" expanded="true" signature="3221:3417" ph="insert into t4c... " />
-            <marker date="1501753482000" expanded="true" signature="3658:3790" ph="insert into t4b... " />
-            <marker date="1501753482000" expanded="true" signature="3977:4144" ph="insert into t4a... " />
-            <marker date="1501753482000" expanded="true" signature="4376:4492" ph="insert into t4... " />
-            <marker date="1501753482000" expanded="true" signature="5126:5304" ph="update t3 se... " />
-            <marker date="1501753482000" expanded="true" signature="5534:5647" ph="update t3 se... " />
-            <marker date="1501753482000" expanded="true" signature="5824:6002" ph="update t3 se... " />
-            <marker date="1501753482000" expanded="true" signature="6254:6367" ph="update t3 se... " />
+            <marker date="1502691519619" expanded="true" signature="1378:1386" ph="select disti... t3" />
+            <marker date="1502691519619" expanded="true" signature="1378:1399" ph="select datad... t1" />
+            <marker date="1502691519619" expanded="true" signature="1378:1470" ph="select datad... t1" />
+            <marker date="1502691519619" expanded="true" signature="1378:1475" ph="select datad... t1" />
+            <marker date="1502691519619" expanded="true" signature="1378:1496" ph="select datad... t1" />
+            <marker date="1502691519619" expanded="true" signature="1587:2262" ph="SELECT datad... t3" />
+            <marker date="1502691519619" expanded="true" signature="1975:2107" ph="select b2.da... python" />
+            <marker date="1502691519619" expanded="true" signature="2024:2105" ph="select b3.id... python" />
+            <marker date="1502691519619" expanded="true" signature="4251:4358" ph="insert into t4... " />
+            <marker date="1502691519619" expanded="true" signature="4828:5000" ph="update t3 se... " />
+            <marker date="1502691519619" expanded="true" signature="5662:5772" ph="update t3 se... " />
+            <marker date="1502691519619" expanded="true" signature="6999:7013" ph="delete FROM " />
+            <marker date="1502691519619" expanded="true" signature="7046:7195" ph="update t3 se... " />
+            <marker date="1502691519619" expanded="true" signature="7219:7247" ph="drop table i... " />
+            <marker date="1502691519619" expanded="true" signature="7280:7393" ph="CREATE TABLE... python" />
+            <marker date="1502691519619" expanded="true" signature="7426:7543" ph="insert into python... " />
+            <marker date="1502691519619" expanded="true" signature="7513:7525" ph="select disti... temptable" />
+            <marker date="1502691519619" expanded="true" signature="7513:7543" ph="insert into python... " />
           </folding>
         </state>
       </provider>
