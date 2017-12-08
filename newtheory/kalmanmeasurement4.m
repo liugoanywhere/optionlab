@@ -1,4 +1,4 @@
-function [ logiv ] = kalmanmeasurement4( x,k,t,mask,numk,numt,ifv,ndays )
+function [ logiv,Ik ] = kalmanmeasurement4( x,k,t,mask,numk,numt,ifv,ndays )
 for i3=1:ndays
 for i=1:numk
 for i2=1:(ifv+1)*numt
@@ -27,7 +27,8 @@ jp=y(10);
 
 index=(ifv+1)*numt*numk*(i3-1)+i2+(i-1)*(ifv+1)*numt;
 if i2<=numt
-logiv(index)=log(newtheoryi2( eta, t(index), m, w, rho, v, k(index) ,j));
+[logiv(index),Ik(index)]=newtheoryi2( eta, t(index), m, w, rho, v, k(index) ,j);
+logiv(index)=log(logiv(index));
 else
     logiv(index)=log( newtheoryv2( eta, t(index), w,  mp, rhop, vp, k(index),jp ));
 end

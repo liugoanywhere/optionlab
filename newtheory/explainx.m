@@ -1,4 +1,4 @@
-function [ v,m,rho,w,eta,j,vp,mp,rhop,jp ] = explainx( x,mask )
+function [ v,m,rho,w,eta,j,vp,mp,rhop,jp,mink ] = explainx( x,mask )
 %INTERPRETX Summary of this function goes here
 %   Detailed explanation goes here
 y=[-3; 0 ;0 ;0 ;0;0;-3;0;0;0];        
@@ -17,5 +17,7 @@ mp=y(8);
 rhop=(exp(y(9))-1)/(exp(y(9))+1);
 jp=y(10);
 
-end
 
+
+
+end
